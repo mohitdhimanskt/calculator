@@ -3,3 +3,9 @@ body{
     user-select: none;
     cursor: default;
 }
+#app{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
