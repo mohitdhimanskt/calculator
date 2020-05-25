@@ -5,6 +5,8 @@
         <meta name="veiwport" content="width=device-width , initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Calculator</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
     </head>
     <body translate="no">
         <div id="app">
@@ -13,23 +15,23 @@
                     <div class="formulaScreen"></div>
                     <div id="display" class="outputScreen">0</div>
                    <div>
-                       <button id="clear" class="jumbo" value="AC">AC</button>
-                       <button id="divide" value="/">/</button>
-                       <button id="multiply" value="x">x</button>
+                        <button class="jumbo" id="clear" value="AC" style="background: rgb(172, 57, 57) none repeat scroll 0% 0%;">AC</button>
+                        <button id="divide" value="/" style="background: rgb(102, 102, 102) none repeat scroll 0% 0%;">/</button>
+                        <button id="multiply" value="x" style="background: rgb(102, 102, 102) none repeat scroll 0% 0%;">x</button>
                        <button id="seven" value="7">7</button>
                        <button id="eight" value="8">8</button>
                        <button id="nine" value="9">9</button>
-                       <button id="subtract" value="-">-</button>
+                       <button id="subtract" value="‑" style="background: rgb(102, 102, 102) none repeat scroll 0% 0%;">-</button>
                        <button id="four" value="4">4</button>
                        <button id="five" value="5">5</button>
                        <button id="six" value="6">6</button>
-                       <button id="add" value="+">+</button>
+                       <button id="add" value="+" style="background: rgb(102, 102, 102) none repeat scroll 0% 0%;">+</button>
                        <button id="one" value="1">1</button>
                        <button id="two" value="2">2</button>
                        <button id="three" value="3">3</button>
                        <button id="zero" class="jumbo" value="0">0</button>
                        <button id="decimal" value=".">.</button>
-                       <button id="equals" value="=">=</button>
+                       <button id="equals" value="=" style="background: rgb(0, 68, 102) none repeat scroll 0% 0%; position: absolute; height: 130px; bottom: 5px;">=</button>
 
 
                    </div>
